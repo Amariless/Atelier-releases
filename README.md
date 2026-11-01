@@ -1,57 +1,107 @@
 <p align="center">
-  <img src="docs/icon.png" width="96" alt="Icono de Atelier">
+  <img src="docs/icon.png" width="96" alt="Atelier icon">
 </p>
 
 <h1 align="center">Atelier</h1>
 
 <p align="center">
-  Un taller de herramientas creativas y de uso diario, en una sola app de escritorio.
+  A creative toolbox for your desktop: music, drawing, pre-production, focus timers, phone sync and system tools in one window.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>Descargar la última versión</b></a>
-  &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Linux
+  <a href="https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_x64-setup.exe"><img src="https://img.shields.io/badge/Windows-Installer_.exe-17161c?style=for-the-badge&labelColor=d9822b&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDMuNCA5LjggMnY5LjRIMHpNMTEgMS44IDI0IDB2MTEuM0gxMXpNMCAxMi42aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjZoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4=" alt="Download for Windows"></a>
+  <a href="https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_amd64.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-17161c?style=for-the-badge&labelColor=d9822b&logo=linux&logoColor=white" alt="Download for Linux"></a>
 </p>
 
 <p align="center">
-  <img src="docs/captura.png" width="860" alt="El generador de escenas de Atelier con cinco ideas generadas">
+  <img src="docs/screenshot.png" width="820" alt="Atelier showing the Scene Generator">
 </p>
 
-## Qué es
+## What it is
 
-Atelier reúne en una ventana las herramientas que uso a diario para proyectos audiovisuales y para el equipo: escribir un guion, armar un storyboard, buscar ideas, ordenar música, sincronizar carpetas. Cada herramienta tiene su pestaña en la barra lateral.
+Atelier gathers the small tools I use every day for audiovisual projects and for my computer, so they live in one place instead of a dozen apps and websites. Each tool has its own tab in the sidebar, and the ones that work in the background keep running while you use the others.
 
-## Herramientas
+## The tools
 
-| Herramienta | Para qué sirve |
-|---|---|
-| **Preproducción** | Documento de diseño, guion, guion literario, diseño sonoro y storyboard para un juego, un corto o cualquier proyecto. |
-| **Scene Generator** | Ideas de escenas 3D, personajes y props, con estética, hora del día, encuadre, iluminación y paleta de color. |
-| **Dibujo** | Lienzo con capas, pinceles con presión, selección y filtros. |
-| **Música** | Descarga audio y te recomienda música a partir de tu biblioteca. |
-| **Metadata Editor** | Corrige etiquetas, portadas y letras de carpetas enteras de música. |
-| **Reloj** | Pomodoro, cronómetro, temporizador, alarmas, reloj mundial y clima. |
-| **Sincronización** | Mantiene carpetas al día entre tus dispositivos con Syncthing. |
-| **KDE Connect** | Conecta tu celular con el computador. |
-| **Sistema** | Uso de recursos, procesos, pantallas, limpieza y chequeos del equipo. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Music</h3>
+      <p>Download songs from YouTube, SoundCloud and many other sites as MP3, with cover, artist and title already filled in. Listen to a song before you download it, and fix a bad download by replacing it with a better version.</p>
+      <p>It also suggests new songs based on the music you already have, and you can hide the ones you don't want to see again.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Metadata Editor</h3>
+      <p>Point it at a folder of MP3s named <code>Artist - Title</code> and it fills in the rest by itself: album, year, genre, cover and lyrics, looked up on iTunes, Deezer, MusicBrainz and LRCLIB.</p>
+      <p>Songs that are already complete are skipped, so running it again on a big folder is quick. You can also edit any song by hand, rename files and spot fake high-quality files: it analyzes the audio to show the real quality behind the bitrate.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Pre-production</h3>
+      <p>Plan a game, a film or any creative project: design document, script, screenplay, sound design and storyboard, all in one place.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Scene Generator</h3>
+      <p>Stuck for ideas? Generate 3D scene prompts that combine a setting, a state and an atmosphere, and save the ones you like.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Drawing</h3>
+      <p>A canvas for sketches and quick paintings: layers, pressure-sensitive brushes, selections you can copy and paste, blur and sharpen filters, undo and redo, zoom and export.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Clock</h3>
+      <p>Pomodoro timer, stopwatch, countdown timer, clock and weather for your city, in one tool that keeps running in the background.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Sync</h3>
+      <p>Keep folders in sync between your computer, your phone and other devices with Syncthing, managed entirely from Atelier. Add devices with a QR code, pause folders and resolve conflicts without leaving the app. It can also find duplicate files in your synced folders.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>KDE Connect</h3>
+      <p>Connect your phone to see its notifications, share the clipboard, send files and text, send SMS and ring it when you can't find it.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>System</h3>
+      <p>A resource monitor and task manager (with GPU use per process), screen brightness, monitors, color mode, keeping the screen awake and scheduled shutdown.</p>
+      <p>Take screenshots straight to the clipboard with your own shortcut, pick colors from the screen, manage startup apps, uninstall programs along with their leftovers and clean temporary files. Changes like brightness or color mode can all be reverted at once.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Settings</h3>
+      <p>Themes and appearance for the whole app, your own icon for each tool, and whether Atelier starts with your computer, in front or quietly in the background.</p>
+    </td>
+  </tr>
+</table>
 
-## Instalación
+Some system tools, like driver updates, are only available on Windows. The interface is in Spanish for now.
 
-Descarga el archivo de tu sistema desde [Releases](../../releases/latest). Los enlaces "Source code" que GitHub añade a cada versión no son el programa, no los necesitas.
+## Download
 
-| Sistema | Archivo |
-|---|---|
-| Windows 10 u 11 | El instalador `…_x64-setup.exe` |
-| Linux (x86-64) | El `…_amd64.AppImage`: dale permiso de ejecución (`chmod +x`) y ábrelo |
+| System | Download | Notes |
+|---|---|---|
+| **Windows** | [Installer (.exe)](https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_x64-setup.exe) | Windows 10 or 11. If SmartScreen shows up, choose *More info → Run anyway*. The installer isn't signed with a paid certificate. |
+| **Linux** | [AppImage](https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_amd64.AppImage) | 64-bit PCs. Make it executable (`chmod +x`) and open it. |
 
-En Windows puede aparecer un aviso de SmartScreen porque el instalador no está firmado con un certificado de pago. Elige *Más información → Ejecutar de todas formas*.
+There's no macOS version yet. Older versions and release notes are on the [Releases](https://github.com/Amariless/Atelier-releases/releases) page.
 
-macOS no tiene versión por ahora.
+Atelier checks for new versions by itself. Updates are signed, so the app only accepts files published here.
 
-## Actualizaciones
+## Feedback
 
-La app busca versiones nuevas al abrirse y desde el botón de actualizar de la barra lateral. Las actualizaciones van firmadas. En Linux se actualiza sola la versión AppImage.
+Found a bug, have an idea or just want to say something? Each button opens a short form.
+
+<p>
+  <a href="https://github.com/Amariless/Atelier-releases/issues/new?template=bug.yml"><img src="https://img.shields.io/badge/Report_a_bug-d9822b?style=for-the-badge" alt="Report a bug"></a>
+  <a href="https://github.com/Amariless/Atelier-releases/issues/new?template=idea.yml"><img src="https://img.shields.io/badge/Suggest_an_idea-d9822b?style=for-the-badge" alt="Suggest an idea"></a>
+  <a href="https://github.com/Amariless/Atelier-releases/issues/new?template=comment.yml"><img src="https://img.shields.io/badge/Leave_a_comment-d9822b?style=for-the-badge" alt="Leave a comment"></a>
+</p>
 
 ---
 
-Este repositorio solo publica los instaladores; el código fuente es privado. Si algo falla o tienes una idea, abre un [issue](../../issues).
+<sub>This repository only hosts the installers; the source code is private.</sub>
