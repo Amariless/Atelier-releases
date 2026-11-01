@@ -19,7 +19,7 @@
 
 ## Qué es
 
-Atelier (antes Alejo Tools) reúne en una ventana las herramientas que uso a diario para proyectos audiovisuales y para el equipo: escribir un guion, armar un storyboard, buscar ideas, ordenar música, sincronizar carpetas. Cada herramienta tiene su pestaña en la barra lateral.
+Atelier reúne en una ventana las herramientas que uso a diario para proyectos audiovisuales y para el equipo: escribir un guion, armar un storyboard, buscar ideas, ordenar música, sincronizar carpetas. Cada herramienta tiene su pestaña en la barra lateral.
 
 ## Herramientas
 
