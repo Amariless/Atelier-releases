@@ -88,9 +88,21 @@ Some system tools, like driver updates, are only available on Windows. The inter
 | **Windows** | [Installer (.exe)](https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_x64-setup.exe) | Windows 10 or 11. If SmartScreen shows up, choose *More info → Run anyway*. The installer isn't signed with a paid certificate. |
 | **Linux** | [AppImage](https://github.com/Amariless/Atelier-releases/releases/download/v0.1.1/Atelier_0.1.1_amd64.AppImage) | 64-bit PCs. Make it executable (`chmod +x`) and open it. |
 
+### Linux: install or update with one command
+
+Works on any 64-bit distribution with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later). It needs no admin password, checks the download against its SHA-256 sum and adds Atelier to your applications menu. Run the same command again to update.
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/Amariless/Atelier-releases/main/install.sh | sh
+```
+
+To uninstall (your data is kept): `curl -fsSL https://raw.githubusercontent.com/Amariless/Atelier-releases/main/install.sh | sh -s -- --uninstall`
+
+The "Source code" links GitHub adds to every release are not the program; this repository only holds the installers.
+
 There's no macOS version yet. Older versions and release notes are on the [Releases](https://github.com/Amariless/Atelier-releases/releases) page.
 
-Atelier checks for new versions by itself. Updates are signed, so the app only accepts files published here.
+Atelier checks for new versions by itself. On Windows the update button installs it for you; on Linux it does too when installed as an AppImage, and otherwise it shows the command above. Updates are signed, so the app only accepts files published here.
 
 ## Feedback
 
